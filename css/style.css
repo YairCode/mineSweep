@@ -1,14 +1,35 @@
+body {
+    background-color: #F7E2D6;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    
+}
+
 .board-container {
-border: 2px;
-border-color: blue;
-border-style: solid;
-width: 400px;
-height: 400px;}
+    border: 2px;
+    border-color: #A084CF;
+    border-style: solid;
+    width: 400px;
+    height: 400px;
+    background-color: #DFBB9D;
+    padding: auto;
+    align-items: center;
+}
 
 .cell {
+    margin: 2px;
     border: 2px;
-    border-color: rgb(255, 187, 0);
+    border-color: #9DD6DF;
     border-style: solid;
     width: 90px;
-height: 90px;
+    height: 90px;
+    background-color: #F7E2D6;
+    text-align: center;
+    
 }
+
+.cell:hover {
+    background-color: #e9d5ca;
+  }
+
