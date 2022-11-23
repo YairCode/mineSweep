@@ -1,0 +1,14 @@
+.board-container {
+border: 2px;
+border-color: blue;
+border-style: solid;
+width: 400px;
+height: 400px;}
+
+.cell {
+    border: 2px;
+    border-color: rgb(255, 187, 0);
+    border-style: solid;
+    width: 90px;
+height: 90px;
+}
